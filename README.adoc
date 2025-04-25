@@ -1,4 +1,4 @@
-= csoftz-spring-mvc-oracle-country-starter
+= csoftz-oracle-country-service-starter
 
 V2025.1.0
 

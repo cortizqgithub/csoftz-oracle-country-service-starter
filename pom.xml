@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.acme</groupId>
-    <artifactId>csoftz-spring-mvc-oracle-country-starter</artifactId>
+    <artifactId>csoftz-oracle-country-service-starter</artifactId>
     <version>2025.1.0</version>
-    <name>csoftz-spring-mvc-oracle-country-starter</name>
+    <name>csoftz-oracle-country-service-starter</name>
     <description>JDBC Template centric app POC. Defines only Data and Service layer.</description>
     <properties>
         <java.version>21</java.version>
