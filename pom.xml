@@ -8,7 +8,7 @@
         <version>3.4.5</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.acme</groupId>
+    <groupId>com.acme.country</groupId>
     <artifactId>csoftz-oracle-country-service-starter</artifactId>
     <version>2025.1.0</version>
     <name>csoftz-oracle-country-service-starter</name>

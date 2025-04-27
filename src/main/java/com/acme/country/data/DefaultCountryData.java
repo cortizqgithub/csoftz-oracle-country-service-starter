@@ -1,11 +1,30 @@
+/*----------------------------------------------------------------------------*/
+/* Source File:   DEFAULTCOUNTRYDATA.JAVA                                     */
+/* Copyright (c), 2025 CSoftZ                                                 */
+/*----------------------------------------------------------------------------*/
+/*-----------------------------------------------------------------------------
+ History
+ Apr.20/2025  COQ  File created.
+ -----------------------------------------------------------------------------*/
 package com.acme.country.data;
 
 import com.acme.country.domain.Country;
 import java.util.List;
 import java.util.Optional;
 import org.springframework.jdbc.core.JdbcTemplate;
-import org.springframework.stereotype.Repository;
 
+/**
+ * Implementation of the CountryData interface using JdbcTemplate for data access.
+ * <p>
+ * Provides methods to perform CRUD operations (Create, Read, Update, Delete) on
+ * country data, interacting with a relational database.
+ * <p>
+ * This class uses SQL queries to perform operations such as retrieving all
+ * countries, finding a specific country by its identifier, saving or updating
+ * a country, and deleting a country by its identifier.
+ *
+ * @author COQ - Carlos Adolfo Ortiz Q.
+ */
 public class DefaultCountryData implements CountryData {
     private final JdbcTemplate jdbcTemplate;
 
